@@ -9,7 +9,7 @@ import java.time.Month;
  
 public class AccesoADatos {
  
-    
+    //aca arranca la aplicación
     public static void main(String[] args) {
        Conexion con = new Conexion();
      AlumnoData ad= new AlumnoData(con); 
